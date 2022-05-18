@@ -1,0 +1,17 @@
+[
+    {
+        "_id": 1,
+        "name": "CSE",
+        "description": "Computer Sceince & Engineering is the best department on a days"
+    },
+    {
+        "_id": 1,
+        "name": "EEE",
+        "description": "Eletronics & Electrical Engineering also best department on a days"
+    },
+    {
+        "_id": 1,
+        "name": "CSIT",
+        "description": "Computer Sceince & Engineering is the best department on a days"
+    }
+]
