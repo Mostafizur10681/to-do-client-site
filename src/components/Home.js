@@ -7,7 +7,7 @@ const Home = () => {
 
     const onSubmit = data => {
         console.log(data)
-        const url = 'https://localhost:5000/todo';
+        const url = 'https://murmuring-waters-70415.herokuapp.com/todo';
         fetch(url, {
             method: 'POST',
             headers: {

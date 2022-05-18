@@ -20,7 +20,7 @@ const ManageToDo = () => {
         const proceed = window.confirm('Are you sure yo want to delete?')
         if (proceed) {
             // console.log('delete item', id)
-            const url = `http://localhost:5000/todo/${id}`;
+            const url = `https://murmuring-waters-70415.herokuapp.com/todo/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
@@ -43,7 +43,7 @@ const ManageToDo = () => {
 
                 <thead>
 
-                    <tr className='bg-custom text-light'>
+                    <tr className='bg-custom text-dark'>
                         <th scope="col">Name</th>
                         <th scope="col">Description</th>
                         <th>Action</th>
